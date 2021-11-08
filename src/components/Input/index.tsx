@@ -12,7 +12,8 @@ import { IconBaseProps } from 'react-icons/lib';
 
 interface InputProps {
   name: string,
-  icon: React.ComponentType<IconBaseProps>,
+  icon?: React.ComponentType<IconBaseProps>,
+  placeholder: string
 }
 
 
