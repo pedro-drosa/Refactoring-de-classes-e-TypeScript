@@ -6,10 +6,12 @@ import Modal from '../Modal';
 import Input from '../Input';
 
 interface HandleSubmitData {
+  id:string,
   image: string,
   name: string,
   price: string,
-  description: string
+  description: string,
+  available: boolean
 }
 
 interface ModalEditFoodProps {
